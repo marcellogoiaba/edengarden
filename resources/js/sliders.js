@@ -1,0 +1,20 @@
+$(document).ready(function(){
+    $("#breakie-button").click(function(){
+        $("#lunch_menu").slideUp(600);
+        $("#evening_menu").slideUp(600);
+        $("#breakfast_menu").slideToggle(600);
+    });
+    $("#lunch-button").click(function(){
+        $("#breakfast_menu").slideUp(600);
+        $("#evening_menu").slideUp(600);
+        $("#lunch_menu").slideToggle(600);
+   });
+    $("#evening-button").click(function(){
+        $("#breakfast_menu").slideUp(600);
+        $("#lunch_menu").slideUp(600);
+        $("#evening_menu").slideToggle(600);
+   });
+});
+$(document).ready(function(){
+  
+});
