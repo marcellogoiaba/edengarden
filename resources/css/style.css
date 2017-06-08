@@ -38,7 +38,7 @@ footer{
     background-color: rgba(228, 138, 4, 0.79);
     color: #fff;
     text-align: center;
-    
+
 }
 
 /*-------------------------------------------------------------------------*/
@@ -47,7 +47,7 @@ footer{
 .row{
     max-width: 1140px;
     margin: 0 auto;
-    
+
 }
 section{
     padding: 80px;
@@ -191,7 +191,7 @@ header{
     width: auto;
     float: left;
     margin-top: 20px
-    
+
 }
 .main-nav{
     float: right;
@@ -216,7 +216,7 @@ header{
     border-bottom: 3px solid #e48a04;
     transition: border-bottom 0.3s;
 }
-    
+
 /*----------------Sticky nav----------------------------------- */
 .sticky{
     position: fixed;
@@ -231,7 +231,7 @@ header{
     -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     z-index: 9999;
-    
+
 }
 .sticky .main-nav{  margin-top: 18px; }
 
@@ -350,7 +350,7 @@ header{
     font-weight: 600
 }
 #navbar-tabs #holder li{
-   text-decoration: none; 
+   text-decoration: none;
    text-align: center;
 }
 .something{
@@ -432,11 +432,12 @@ header{
                               HOTEL
 --------------------------------------------------------------------------------*/
 .hotel{
-    padding: 40px 0 0 0;
-    
+    padding: 80px 0 0 0;
+
 }
+
 .booknow{
-  padding-bottom: 30px  
+  padding-bottom: 30px
 }
 .testimonials {
     background-image: linear-gradient(rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.82)), url(./img/back-customers.jpg);
@@ -521,7 +522,7 @@ header{
     height: 45px;
     border-top: #b5b5b5 solid 2px;
     border-left: #b5b5b5 solid 2px;
-    
+
 }
 .send-button:hover,
 .send-button:active{
@@ -550,7 +551,7 @@ header{
     font-size: 96%;
     font-weight: 400;
     margin-top: 10px;
-    
+
 }
 .social-text a:link,
 .social-text a:visited{
