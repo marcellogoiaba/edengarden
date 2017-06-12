@@ -95,8 +95,8 @@ Dublin Ireland
     }
     .logo{
         top: 20%;
-        left: 20%;
-        width: 60%;
+        left: 25%;
+        width: 50%;
         height: auto;
         text-align: center;
         position: absolute;
@@ -111,10 +111,18 @@ Dublin Ireland
 }
 /*for devices small screen >= 480px*/
 @media only screen and (max-width: 480px){
+    .logo{
+        top: 20%;
+        left: 20%;
+        width: 60%;
+        height: auto;
+        text-align: center;
+        position: absolute;
+    }
     .main-nav li{
-    display: inline-block;
-    margin-left: 8px;
-    font-size: 95%;   
+        display: inline-block;
+        margin-left: 8px;
+        font-size: 95%;   
     }
     .social-icons{
         padding-left: 2%;
